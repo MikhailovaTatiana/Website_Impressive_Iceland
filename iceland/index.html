@@ -1,48 +1,136 @@
+  
 <!DOCTYPE html>
 <html>
     <head>
-        <!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-		<!-- jQuery library -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-		<!-- Popper JS -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-		<!-- Latest compiled JavaScript -->
+      <!--
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-        
-        <link rel="stylesheet" href="style.css">
+      -->
+
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+        <link rel="stylesheet" href="style.css">
+
         <title>Impressive Iceland</title>
     </head>
 
-    <body class="background">
-        <header>Impressive Iceland</header>
+    <body>
+        <header>
+          Impressive Iceland
+        </header>
+
         <p>Find your experiences!</p>
+
         <ul>
-            <button onclick="document.location='default.asp'" title="Click on!"><li>Regions</li></button>
-            <button onclick="document.location='default.asp'" title="Click on!"><li>How to get there</li></button>
-            <button onclick="document.location='default.asp'" title="Click on!"><li>Where to stay</li></button>
-            <button onclick="document.location='default.asp'" title="Click on!"><li>What to do and see</li></button>
-            <button onclick="document.location='default.asp'" title="Click on!"><li>News</li></button>
+            <li><button title="Click on!"><a href="#A1">Capital Area</a></button></li>
+            <li><button title="Click on!"><a href="#A2">Southern Peninsula</a></button></li>
+            <li><button title="Click on!"><a href="#A3">South</a></button></li>
+            <li><button title="Click on!"><a href="#A4">East</a></button></li>
+            <li><button title="Click on!"><a href="#A5">Northeast</a></button></li>
+            <li><button title="Click on!"><a href="#A6">Northwest</a></button></li>
+            <li><button title="Click on!"><a href="#A7">Westfjords</a></button></li>
+            <li><button onclick="document.location='default.asp'" title="Click on!">West</button></li>
         </ul>
-        <section>
-            <img src=".jpg" alt="Reykjavik Area" width="100%" height="auto">
-            <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
-            <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
-            <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
-            <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
-            <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
-            <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
-        </section>
 
+        <div class="flex-container">
+            <img src="capital.jpg" alt="Capital Area">
+            <img src="peninsula.jpg" alt="Southern Peninsula">
+            <img src="south.jpg" alt="South">
+            <img src="east.jpg" alt="East">
+            <img src="northeast.jpg" alt="Northeast">
+            <img src="northwest.jpg" alt="Northwest">
+            <img src="westfjords.jpg" alt="Westfjords">
+            <img src="West.jpg" alt="West">
+        </div>
+
+        <div class="w3-container w3-teal">
+            <h1>Impressive Iceland</h1>
+        </div>
         
+      <div class="gallery">
+        <div class="w3-row-padding w3-margin-top">
 
+            <div class="w3-third">
+              <div class="w3-card">
+                <img src="capital.jpg" alt="Capital Area" id="A1" width="485px" height="272px">
+                <div class="w3-container">
+                  <h5>Capital Area</h5>
+                </div>
+              </div>
+            </div>
+          
+            <div class="w3-third">
+              <div class="w3-card">
+                <img src="peninsula.jpg" alt="Southern Peninsula" id="A2" width="485px" height="272px">
+                <div class="w3-container">
+                  <h5>Southern Peninsula</h5>
+                </div>
+              </div>
+            </div>
+          
+            <div class="w3-third">
+              <div class="w3-card">
+                <img src="south.jpg" id="A3" width="485px" height="272">
+                <div class="w3-container">
+                  <h5>South</h5>
+                </div>
+              </div>
+            </div>
 
+            <div class="w3-third">
+              <div class="w3-card">
+                <img src="east.jpg" id="A4" width="485px" height="272px">
+                <div class="w3-container">
+                  <h5>East</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-third">
+              <div class="w3-card">
+                <img src="northeast.jpg" id="A5" width="485px" height="272px">
+                <div class="w3-container">
+                  <h5>Northeast</h5>
+                </div>
+              </div>
+            </div>
+          
+            <div class="w3-third">
+              <div class="w3-card">
+                <img src="northwest.jpg" id="A6" width="485px" height="272px">
+                <div class="w3-container">
+                  <h5>Northwest</h5>
+                </div>
+              </div>
+            </div>
+          
+            <div class="w3-third">
+              <div class="w3-card">
+                <img src="westfjords.jpg" alt="Westfjords" id="A7" width="485px" height="272px">
+                <div class="w3-container">
+                  <h5>Westfjords</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="w3-third">
+                <div class="w3-card">
+                  <img src="west.jpg" id="A8" width="485px" height="272px">
+                  <div class="w3-container">
+                    <h5>West</h5>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </div>
 
         <footer>
             <p>All photos <a href="https://unsplash.com/">unsplash.com</a></p>
             <p>Made by Tatiana Mikhailova</p>
+            <p>Copyright©2020</p>
         </footer>
     </body>
 </html>

@@ -1,18 +1,44 @@
 header {
-    font-size: 350%;
+    font-size: 300%;
     text-align: center;
-    font-weight: bold;
     font-family: cursive;
 }
-
 li {
     display: inline;
+    padding: 15px;
 }
-
+ul {
+    padding: 0%;
+}
 body {
     background: url("iceland_map.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 70%;
     background-position: center;
+    text-align: center;
+    
+}
+.regions img{
+    width: 30%;
+    height: auto;
+    padding: 15px;
+}
+footer {
+    font-style: italic;
+}
+div.gallery img {
+    width: 485;
+    height: 272;
+}
+.w3-row-padding {}
+
+div.flex-container {
+    display: flexbox;
+    flex-wrap: nowrap;
+}
+div.flex-container img {
+    width: 485px;
+    height: 272px;
+    padding: 10px;
 }
