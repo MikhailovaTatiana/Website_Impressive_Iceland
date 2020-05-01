@@ -9,23 +9,20 @@
         <meta name="keywords" content="Iceland's rigeons">
         <meta name="author" content="Tatiana Mikhailova">
 
-        <link rel="icon" href="demo_icon.gig" type="image/gif" sizes="16x16">
-
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-      
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <link rel="icon" href="demo_icon.gig" type="image/gif" sizes="16x16">        
 
         <!--icon bootstrap-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <!--icon font-awesome-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+        <title>Impressive Iceland</title>
         <link rel="stylesheet" type="text/css" href="style.css">
         <script src="jquery.js"></script>
-        <title>Impressive Iceland</title>
+        
     </head>
 
     <body>
@@ -37,12 +34,12 @@
             <section>
                 <img src="images/flagicon.png"/> 
                 <p> Find your experiences! </p><br>
-                <button id="hideButtom">Here!</button>
+                <button id="hidebutton">Search</button>
             </section>
-        </label><br>
+          </label><br>
 
           <form method="post">
-              <input type="text" id="" name="search" placeholder="Search...">
+              <input type="text" id="" name="search" placeholder="">
           </form>
 
           <div class="form-group">
@@ -63,76 +60,84 @@
         </header>
 
       
-          <div class="w3-row-padding w3-margin-top" id="containerpicture">
+          <div class="w3-row-padding w3-margin-top" id="boxpictures">
 
-              <div class="w3-third" style="padding: 8px">
-                <div class="w3-card">
+              <div class="w3-third">
+                <div class="w3-card" title="Click on!" id="flip1">
                   <img src="images/10.jpg" alt="Capital Area" id="A1">
                   <div class="w3-container">
-                    <h5>Capital Area</h5>
+                    <h4>Capital Area</h4>
+                    <p id="panel1">Reykjavík is the natural starting point for any visit to Iceland, and deservedly so.</p>
                   </div>
                 </div>
               </div>
             
-              <div class="w3-third" style="padding: 8px">
-                <div class="w3-card">
+              <div class="w3-third">
+                <div class="w3-card" title="Click on!" id="flip2">
                   <img src="images/11.jpg" alt="Southern Peninsula" id="A2">
                   <div class="w3-container">
-                    <h5>Southern Peninsula</h5>
+                    <h4>Southern Peninsula</h4>
+                    <p id="panel2">The Reykjanes peninsula is a geothermal wonder, characterized volcanic surroundings.</p>
                   </div>
                 </div>
               </div>
             
-              <div class="w3-third" style="padding: 8px">
-                <div class="w3-card">
+              <div class="w3-third">
+                <div class="w3-card" title="Click on!" id="flip3">
                   <img src="images/12.jpg" id="A3">
                   <div class="w3-container">
-                    <h5>South</h5>
+                    <h4>South</h4>
+                    <p id="panel3">Iceland's south coast includes some of the country's most visited sites and has worthy attraction all along the coast.</p>
                   </div>
                 </div>
               </div>
 
-              <div class="w3-third" style="padding: 8px">
-                <div class="w3-card">
+              <div class="w3-third">
+                <div class="w3-card" title="Click on!" id="flip4">
                   <img src="images/18.jpg" id="A4">
                   <div class="w3-container">
-                    <h5>East</h5>
+                    <h4>East</h4>
+                    <p id="panel4">Home to the country's largest forest, lush farmlands, and a range of small fjords and seaside communities.</p>
                   </div>
                 </div>
               </div>
 
-              <div class="w3-third" style="padding: 8px">
-                <div class="w3-card">
+              <div class="w3-third">
+                <div class="w3-card" title="Click on!" id="flip5">
                   <img src="images/14.jpg" id="A5">
                   <div class="w3-container">
-                    <h5>Northeast</h5>
+                    <h4>Northeast</h4>
+                    <p id="panel5">For a first trip to Iceland, people often forget about Northeast Iceland. Yet this region is the one in which one comes face to face with an Iceland close to its traditions – one of the most authentic of Iceland destinations!</p>
                   </div>
                 </div>
               </div>
             
-              <div class="w3-third" style="padding: 8px">
-                <div class="w3-card">
+              <div class="w3-third">
+                <div class="w3-card" title="Click on!" id="flip6">
                   <img src="images/15.jpg" id="A6">
                   <div class="w3-container">
-                    <h5>Northwest</h5>
+                    <h4>Northwest</h4>
+                    <p id="panel6">Northwest Iceland is a beautiful and authentic region where you will enjoy the midnight sun and discover uncharted landscapes. Discover the huge fjords of the North West.</p>
                   </div>
                 </div>
               </div>
             
-              <div class="w3-third" style="padding: 8px">
-                <div class="w3-card">
+              <div class="w3-third">
+                <div class="w3-card" title="Click on!" id="flip7">
                   <img src="images/16.jpg" alt="Westfjords" id="A7">
                   <div class="w3-container">
-                    <h5>Westfjords</h5>
+                    <h4>Westfjords</h4>
+                    <p id="panel7">One of Iceland's best kept secrets is undoubtedly the country's north-west corner, known as the Westfjords.</p>
                   </div>
                 </div>
               </div>
 
-              <div class="w3-third" style="padding: 8px">
-                  <div class="w3-card">
+              <div class="w3-third">
+                  <div class="w3-card" title="Click on!" id="flip8">
                     <img src="images/17.jpg" id="A8">
                     <div class="w3-container">
-                      <h5>West</h5>
+                      <h4>West</h4>
+                      <p id="panel8">West Iceland is one of Iceland's most geologically diverse regions, boasting of a nearly exhaustive sampling of all that Iceland has to offer.</p>
                     </div>
                   </div>
               </div>
