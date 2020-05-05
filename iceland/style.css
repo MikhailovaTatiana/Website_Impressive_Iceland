@@ -1,68 +1,118 @@
 /*----------header----------*/
-
-header {
-    margin: 15px;
+.city {
+  margin: 0px;
+  text-align: center;
 }
 
-header h1 {
-    font-size: 300%;
-    border-style: solid;
-    border-color: blue red red blue;
-    font-family: cursive;
-    font-weight: bold;
-    border-radius: 4px;
-    text-align: center;
-    margin: 25px 0px 15px 0px;
+.headerPicture img {
+  width: 100%;
+  height: auto;
 }
 
-header form {
-    display: block;
+h1 {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 350%;
+  color: white;
 }
 
-header section {
-    display: flex;
-    flex-wrap: nowrap;
+.onheader {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-/*-----flag-----*/
-header img {
-    width: 32px;
-    height: 26px;
+.onheader img {
+  width: 60px;
+  height: 60px;
+  padding-bottom: 5px;
 }
 
-header p {
-    padding-left: 5px;
-    padding-right: 5px;
-    margin: 0px;
-    font-size: 18px;
-    font-weight: bold;
-    text-shadow: 1px 1px 2px lightcyan;
+
+
+.dark-mode {
+  background-color: black;
+  color: white;
+  background-image: none;
 }
 
-#hidebutton {
-    color: gray;
-    border-color: lightcyan;
+
+/*---see here---*/
+
+.navbar {
+  overflow: hidden;
+  background-color: cadetblue;
 }
 
-/*-----search-----*/
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: teal;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: teal;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: lightcoral;
+  color: white;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+
 input[type=text] {
-    width: 110px;
-    box-sizing: border-box;
-    border: 2px solid lightgrey;
-    border-radius: 2px;
-    font-size: 16px;
-    background-color: lightcyan;
-    background-image: url("images/search.png"); 
-    background-repeat: no-repeat;
-    padding-left: 30px;
-    padding-top: 1px;
-    padding-bottom: 2px;
-    transition: width 0.4s ease-in-out;
-  }
+  padding: 0;
+  margin-top: 14px;
+  width: 110px;
+  transition: width 0.4s ease-in-out;
+}
 
-  input[type=text]:focus {
-    width: 220px;
-  }
+input[type=text]:focus {
+  width: 20%;
+}
+
 
   
 /*----------body----------*/
@@ -94,16 +144,18 @@ div.w3-card {
 }
 
 #boxpictures h4 {
-    font-weight: bolder;
-    text-shadow: 1px 1px 2px lightcyan;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px white;
 }
 
 #panel1, #panel2, #panel3, #panel4, #panel5, #panel6, #panel7, #panel8 {
-    padding: 30px;
+    padding: 20px;
     display: none;
     background-color: lightcoral;
     color: white;
     font-size: 120%;
+    overflow: auto;
+    height: 110px;
 }
 
 .w3-container {
@@ -112,7 +164,7 @@ div.w3-card {
 }
 
 .w3-container h4:hover {
-    color: red;
+    color: tomato;
 }
 
 .w3-card img:hover {
@@ -123,10 +175,12 @@ div.w3-card {
 /*----------footer----------*/
 
 footer {
-    font-weight: bolder;
+    font-weight: bold;
     font-size: small;
-    background-color: lightcyan;
+    background-color: teal;
     padding: 5px;
     margin: 0px;
-    opacity: 0.8;
+    text-align: center;
 }
+
+

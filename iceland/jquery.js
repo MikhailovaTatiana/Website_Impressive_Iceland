@@ -1,11 +1,4 @@
 $(document).ready(function(){
-    $("form").hide();
-    $("#hidebutton").click(function(){
-        $("form").slideToggle();
-    })
-});
-
-$(document).ready(function(){
   $("#flip1").click(function(){
     $("#panel1").slideToggle("slow");
   });
@@ -52,3 +45,10 @@ $(document).ready(function(){
       $("#panel8").slideToggle("slow");
     });
   });
+
+
+  function darkMode() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+ }
+

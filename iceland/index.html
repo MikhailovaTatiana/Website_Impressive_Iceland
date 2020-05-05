@@ -1,22 +1,20 @@
   
 <!DOCTYPE html>
-<html>
+  <html>
+
     <head>
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
       
         <meta name="description" content="The travel site about iceland">
-        <meta name="keywords" content="Iceland's rigeons">
-        <meta name="author" content="Tatiana Mikhailova">
+        <meta name="keywords" content="Iceland's regions">
+        <meta name="author" content="Tatiana Mikhailova, STI, Stockholm">
 
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-        <link rel="icon" href="demo_icon.gig" type="image/gif" sizes="16x16">        
-
-        <!--icon bootstrap-->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <!--icon font-awesome-->
+        <!--font-awesome for navbar-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <title>Impressive Iceland</title>
@@ -25,42 +23,90 @@
         
     </head>
 
+
     <body>
-        <header>
 
-          <h1>Impressive Iceland</h1>
+      <header>
+        
+        <div class="city">
+          <div class="headerPicture">
+            <img src="images/city.jpg" alt="Reykjavik, Iceland">
+          </div>
+          <section class="onheader">
+              
+              <h1><img src="images/flagicon.png"/> Impressive Iceland</h1>
+          </section>
+        </div>
 
-          <label for="search">
-            <section>
-                <img src="images/flagicon.png"/> 
-                <p> Find your experiences! </p><br>
-                <button id="hidebutton">Search</button>
-            </section>
-          </label><br>
+      </header>
+ 
+      
+      <div class="navbar">
+  
+          <a href="#home">Home</a>
+  
+          <div class="subnav">
+            <button class="subnavbtn">Regions <i class="fa fa-caret-down"></i></button>
+              <div class="subnav-content">
+                <a href="#A1">Capital Area</a>
+                <a href="#A2">Southern Peninsula</a>
+                <a href="#A3">South</a>
+                <a href="#A4">East</a>
+                <a href="#A5">Northeast</a>
+                <a href="#A6">Northwest</a>
+                <a href="#A7">Westfjords</a>
+                <a href="#A8">West</a>
+              </div>
+          </div>
 
-          <form method="post">
-              <input type="text" id="" name="search" placeholder="">
-          </form>
+              <div class="subnav">
+                  <button class="subnavbtn">National parks <i class="fa fa-caret-down"></i></button>
+                  <div class="subnav-content">
+                    <a href="#company">Vatnajökull</a>
+                    <a href="#team">Þingvallavatn</a>
+                    <a href="#careers">Snæfellsjökull</a>
+                  </div>
+              </div> 
 
-          <div class="form-group">
-            <label for="parts">Regions</label>
-            <select>
-                <option>Capital Area</option>
-                <option>Southern Peninsula</option>
-                <option>South</option>
-                <option>East</option>
-                <option>Northeast</option>
-                <option>Northwest</option>
-                <option>Westfjord</option>
-                <option>West</option>
-            </select>
-            <input type="submit" value="Enter">
-          </div> 
+              <div class="subnav">
+                  <button class="subnavbtn">Activities <i class="fa fa-caret-down"></i></button>
+                  <div class="subnav-content">
+                    <a href="#bring">Northern lights</a>
+                    <a href="#deliver">Geothermal pools</a>
+                    <a href="#package">Caving</a>
+                    <a href="#express">Whale watching</a>
+                    <a href="#express">Birdwatching</a>
+                    <a href="#express">Ice climbing</a>
+                  </div>
+              </div> 
 
-        </header>
+              <div class="subnav">
+                  <button class="subnavbtn">Travel info <i class="fa fa-caret-down"></i></button>
+                  <div class="subnav-content">
+                    <a href="#link1">How to get to</a>
+                    <a href="#link2">Where to stay</a>
+                    <a href="#link3">Food and drink</a>
+                    <a href="#link4">About weather</a>
+                  </div>
+              </div>
+  
+                <a href="#contact">Contacts</a>
+  
+                <a href="#contact">Newsletter</a>
+  
+                <input type="text" placeholder="Search...">
+
+                
+
+                <button onclick="darkMode()" class="subnavbtn">Dark mode</button>
+  
+      </div>
+  
+      <br><br>
+
 
       
-          <div class="w3-row-padding w3-margin-top" id="boxpictures">
+      <div class="w3-row-padding w3-margin-top" id="boxpictures">
 
               <div class="w3-third">
                 <div class="w3-card" title="Click on!" id="flip1">
@@ -142,14 +188,17 @@
                   </div>
               </div>
 
-          </div>
-      
+        </div>
+
+        <br><br>
 
         <footer>
             <p>All photos <a href="https://unsplash.com/">unsplash.com</a></p>
             <p>Made by Tatiana Mikhailova</p>
-            <i class="glyphicon glyphicon-envelope"> imagetata@gmail.com</i>
+            <i class="glyphicon glyphicon-envelope">imagetata@gmail.com</i>
             <p>Copyright©2020</p>
         </footer>
+
     </body>
-</html>
+
+  </html>
