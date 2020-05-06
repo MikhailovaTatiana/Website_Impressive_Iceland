@@ -1,4 +1,6 @@
+
 /*----------header----------*/
+
 .city {
   margin: 0px;
   text-align: center;
@@ -35,13 +37,13 @@ h1 {
 
 
 
+/*----------body----------*/
+
 .dark-mode {
   background-color: black;
   color: whitesmoke;
   background-image: none;
 }
-
-
 
 .dark-mode button, .dark-mode .w3-bar {
   background-color: black;
@@ -50,15 +52,9 @@ h1 {
 }
 
 
-/*---see here---*/
 
 .w3-bar {
   background-color: cadetblue;
-  color: white;
-}
-
-.w3-bar a, .w3-bar button {
-  background-color: ;
   color: white;
 }
 
@@ -68,14 +64,6 @@ h1 {
 }
 
 
-
-.w3-bar a:hover, .w3-bar button:hover {
-  background-color: lightcoral;
-}
-
-
-  
-/*----------body----------*/
 
 body {
     margin: 0px;
@@ -105,7 +93,7 @@ div.w3-card {
 
 #boxpictures h4 {
     font-weight: bold;
-    background-color: lightseagreen;
+    background-color: lightsalmon;
 }
 
 #panel1, #panel2, #panel3, #panel4, #panel5, #panel6, #panel7, #panel8 {
@@ -132,12 +120,12 @@ div.w3-card {
 }
 
 
+
 /*----------footer----------*/
 
 footer {
-    font-weight: bold;
-    font-size: small;
-    background-color: cadetblue;
+    font-size: medium;
+    background-color: darkcyan;
     margin: 0px;
     text-align: center;
 }
