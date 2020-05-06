@@ -49,10 +49,10 @@
         <div class="w3-dropdown-hover w3-mobile">
           <button class="w3-button w3-hover-teal">Regions <i class="fa fa-caret-down"></i></button>
           <div class="w3-dropdown-content w3-card-4">
-            <a href="#A1" class="w3-bar-item w3-button">Capital Area</a>
-            <a href="#A2" class="w3-bar-item w3-button">Southern Peninsula</a>
-            <a href="#A3" class="w3-bar-item w3-button">South</a>
-            <a href="#A4" class="w3-bar-item w3-button">East</a>
+            <a href="#A1" class="w3-bar-item w3-button w3-hover-teal">Capital Area</a>
+            <a href="#A2" class="w3-bar-item w3-button w3-hover-teal">Southern Peninsula</a>
+            <a href="#A3" class="w3-bar-item w3-button w3-hover-teal">South</a>
+            <a href="#A4" class="w3-bar-item w3-button w3-hover-teal">East</a>
             <a href="#A5" class="w3-bar-item w3-button w3-hover-teal">Northeast</a>
             <a href="#A6" class="w3-bar-item w3-button w3-hover-teal">Northwest</a>
             <a href="#A7" class="w3-bar-item w3-button w3-hover-teal">Westfjords</a>
@@ -88,7 +88,7 @@
           </div>
         </div>
         <a href="#contacts" class="w3-bar-item w3-button w3-hover-teal w3-mobile">Contacts</a>
-        <a href="#news" class="w3-bar-item w3-button w3-hover-teal w3-mobile">Newsletter</a>
+        <a href="#news" class="w3-bar-item w3-button w3-hover-teal w3-mobile">Newsletters</a>
 
         <input type="text" class="w3-bar-item w3-input w3-white w3-right w3-mobile" placeholder="Search...">
         
@@ -189,22 +189,54 @@
         <footer>
 
           <div class="w3-cell-row">
+
             <div class="w3-container w3-cell w3-cell-middle w3-mobile">
-              <p>Contacts</p>
-              <p>All photos <a href="https://unsplash.com/">unsplash.com</a></p>
-              <i class="glyphicon glyphicon-envelope">imagetata@gmail.com</i>
-              <p>Copyright©april2020</p>
+              
+              <fieldset id="contacts">
+
+                <legend>Contact us</legend>
+                <p><i class="fa fa-envelope-o"></i> imagetata@gmail.com</p>
+                <p><a href="https://www.facebook.com/inspiredbyiceland/"><i class="fa fa-facebook-official"> facebook</i></a></p>
+                <p> <a href="https://www.instagram.com/inspiredbyiceland/"><i class="fa fa-instagram"> instagram</i></a></p>
+                <p> <a href="https://www.youtube.com/user/inspiredbyiceland"><i class="fa fa-youtube"> youtube</i></a></p>
+              </fieldset>
+              
+
             </div>
             <div class="w3-container w3-cell w3-cell-middle w3-mobile">
-              <p>Newsletter</p>
+              <br>
+              <form action="/form.php" method="post">
+                <div class="form-group">
+                    <fieldset id="news"> 
+                        <legend>To get newsletters</legend>
+                        <br>
+                        <label for="name">Name</label>
+                        <input type="text" id="" name="name">
+                        <br><br>
+                        <label for="mail">E-mail</label>
+                        <input type="text" id="" name="mail">
+                        <br><br>
+                        <label for="country">Country</label>
+                        <select name="country">
+                            <option>Sweden</option>
+                            <option>Finland</option>
+                            <option>Norway</option>
+                            <option>Danmark</option>
+                            <option>Iceland</option>
+                        </select>
+                        <input type="submit" value="Send">
+                        <br><br>
+                    </fieldset>
+                </div>
+              </form>
+              <br>
             </div>
-            <div class="w3-container w3-cell w3-cell-middle w3-mobile">
-              <p>Media</p>
-            </div>
+
           </div>
 
-
-
+          <p>All photos and texts are from <a href="http://inspiredbyiceland.com/">www.inspiredbyiceland.com</a></p>
+          <p>Copyright©april2020 by Tatiana Mikhailova</p>
+          <br>
 
         </footer>
 
