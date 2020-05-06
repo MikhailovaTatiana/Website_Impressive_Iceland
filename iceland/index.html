@@ -14,7 +14,6 @@
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-        <!--font-awesome for navbar-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <title>Impressive Iceland</title>
@@ -41,66 +40,61 @@
       </header>
  
       
-      <div class="navbar">
-  
-          <a href="#home">Home</a>
-  
-          <div class="subnav">
-            <button class="subnavbtn">Regions <i class="fa fa-caret-down"></i></button>
-              <div class="subnav-content">
-                <a href="#A1">Capital Area</a>
-                <a href="#A2">Southern Peninsula</a>
-                <a href="#A3">South</a>
-                <a href="#A4">East</a>
-                <a href="#A5">Northeast</a>
-                <a href="#A6">Northwest</a>
-                <a href="#A7">Westfjords</a>
-                <a href="#A8">West</a>
-              </div>
+      <div class="w3-bar w3-border">
+
+        <button class="w3-bar-item w3-button w3-hover-red w3-right w3-mobile" onclick="darkMode()" >Mode</button>
+
+        <a href="#home" class="w3-bar-item w3-button w3-hover-teal w3-mobile">Home</a>
+
+        <div class="w3-dropdown-hover w3-mobile">
+          <button class="w3-button w3-hover-teal">Regions <i class="fa fa-caret-down"></i></button>
+          <div class="w3-dropdown-content w3-card-4">
+            <a href="#A1" class="w3-bar-item w3-button">Capital Area</a>
+            <a href="#A2" class="w3-bar-item w3-button">Southern Peninsula</a>
+            <a href="#A3" class="w3-bar-item w3-button">South</a>
+            <a href="#A4" class="w3-bar-item w3-button">East</a>
+            <a href="#A5" class="w3-bar-item w3-button w3-hover-teal">Northeast</a>
+            <a href="#A6" class="w3-bar-item w3-button w3-hover-teal">Northwest</a>
+            <a href="#A7" class="w3-bar-item w3-button w3-hover-teal">Westfjords</a>
+            <a href="#A8" class="w3-bar-item w3-button w3-hover-teal">West</a>
           </div>
+        </div>
+        <div class="w3-dropdown-hover w3-mobile">
+          <button class="w3-button w3-hover-teal">National parks <i class="fa fa-caret-down"></i></button>
+          <div class="w3-dropdown-content w3-card-4">
+            <a href="#B1" class="w3-bar-item w3-button w3-hover-teal">Vatnajökull</a>
+            <a href="#B2" class="w3-bar-item w3-button w3-hover-teal">Þingvallavatn</a>
+            <a href="#B3" class="w3-bar-item w3-button w3-hover-teal">Snæfellsjökull</a>
+          </div>
+        </div>
+        <div class="w3-dropdown-hover w3-mobile">
+          <button class="w3-button w3-hover-teal">Activities <i class="fa fa-caret-down"></i></button>
+          <div class="w3-dropdown-content w3-card-4">
+            <a href="#C1" class="w3-bar-item w3-button w3-hover-teal">Northern lights</a>
+            <a href="#C2" class="w3-bar-item w3-button w3-hover-teal">Geothermal pools</a>
+            <a href="#C3" class="w3-bar-item w3-button w3-hover-teal">Caving</a>
+            <a href="#C4" class="w3-bar-item w3-button w3-hover-teal">Whale watching</a>
+            <a href="#C5" class="w3-bar-item w3-button w3-hover-teal">Birdwatching</a>
+            <a href="#C6" class="w3-bar-item w3-button w3-hover-teal">Ice climbing</a>
+          </div>
+        </div>
+        <div class="w3-dropdown-hover w3-mobile">
+          <button class="w3-button w3-hover-teal">Travel info <i class="fa fa-caret-down"></i></button>
+          <div class="w3-dropdown-content w3-card-4">
+            <a href="#D1" class="w3-bar-item w3-button w3-hover-teal">How to get to</a>
+            <a href="#D2" class="w3-bar-item w3-button w3-hover-teal">Where to stay</a>
+            <a href="#D3" class="w3-bar-item w3-button w3-hover-teal">Food and drink</a>
+            <a href="#D4" class="w3-bar-item w3-button w3-hover-teal">About weather</a>
+          </div>
+        </div>
+        <a href="#contacts" class="w3-bar-item w3-button w3-hover-teal w3-mobile">Contacts</a>
+        <a href="#news" class="w3-bar-item w3-button w3-hover-teal w3-mobile">Newsletter</a>
 
-              <div class="subnav">
-                  <button class="subnavbtn">National parks <i class="fa fa-caret-down"></i></button>
-                  <div class="subnav-content">
-                    <a href="#company">Vatnajökull</a>
-                    <a href="#team">Þingvallavatn</a>
-                    <a href="#careers">Snæfellsjökull</a>
-                  </div>
-              </div> 
+        <input type="text" class="w3-bar-item w3-input w3-white w3-right w3-mobile" placeholder="Search...">
+        
+      </div>   
 
-              <div class="subnav">
-                  <button class="subnavbtn">Activities <i class="fa fa-caret-down"></i></button>
-                  <div class="subnav-content">
-                    <a href="#bring">Northern lights</a>
-                    <a href="#deliver">Geothermal pools</a>
-                    <a href="#package">Caving</a>
-                    <a href="#express">Whale watching</a>
-                    <a href="#express">Birdwatching</a>
-                    <a href="#express">Ice climbing</a>
-                  </div>
-              </div> 
-
-              <div class="subnav">
-                  <button class="subnavbtn">Travel info <i class="fa fa-caret-down"></i></button>
-                  <div class="subnav-content">
-                    <a href="#link1">How to get to</a>
-                    <a href="#link2">Where to stay</a>
-                    <a href="#link3">Food and drink</a>
-                    <a href="#link4">About weather</a>
-                  </div>
-              </div>
-  
-                <a href="#contact">Contacts</a>
-  
-                <a href="#contact">Newsletter</a>
-  
-                <input type="text" placeholder="Search...">
-
-                
-
-                <button onclick="darkMode()" class="subnavbtn">Dark mode</button>
-  
-      </div>
+              
   
       <br><br>
 
@@ -193,10 +187,25 @@
         <br><br>
 
         <footer>
-            <p>All photos <a href="https://unsplash.com/">unsplash.com</a></p>
-            <p>Made by Tatiana Mikhailova</p>
-            <i class="glyphicon glyphicon-envelope">imagetata@gmail.com</i>
-            <p>Copyright©2020</p>
+
+          <div class="w3-cell-row">
+            <div class="w3-container w3-cell w3-cell-middle w3-mobile">
+              <p>Contacts</p>
+              <p>All photos <a href="https://unsplash.com/">unsplash.com</a></p>
+              <i class="glyphicon glyphicon-envelope">imagetata@gmail.com</i>
+              <p>Copyright©april2020</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-mobile">
+              <p>Newsletter</p>
+            </div>
+            <div class="w3-container w3-cell w3-cell-middle w3-mobile">
+              <p>Media</p>
+            </div>
+          </div>
+
+
+
+
         </footer>
 
     </body>
