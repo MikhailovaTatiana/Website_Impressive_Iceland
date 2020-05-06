@@ -93,13 +93,13 @@ div.w3-card {
 
 #boxpictures h4 {
     font-weight: bold;
-    background-color: lightsalmon;
+    background-color: lightcoral;
 }
 
 #panel1, #panel2, #panel3, #panel4, #panel5, #panel6, #panel7, #panel8 {
     padding: 20px;
     display: none;
-    background-color: lightcoral;
+    background-color: lightsalmon;
     color: white;
     font-size: 120%;
     overflow: auto;
