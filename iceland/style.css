@@ -36,7 +36,6 @@ h1 {
 }
 
 
-
 /*----------body----------*/
 
 .dark-mode {
@@ -72,6 +71,12 @@ body {
     background-attachment: fixed;
     background-size: 70%;
     background-position: center;
+}
+
+body h2 {
+  font-weight: bold;
+  text-align: center;
+  
 }
 
 div.w3-card {
